@@ -1,2 +1,2 @@
 # ExtraVerd.com
-ExtraVerd Website
+Hello there, welcome to ExtraVerd website!
