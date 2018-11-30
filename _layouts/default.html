@@ -13,12 +13,13 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header style="text-align: center;">
+        <a style="border:none" href="/">
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p style="text-align: center;">{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="font-size:15pt">{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -27,18 +28,26 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+        </a>
+
+        <p style="font-size:10pt">
+          <a href="/team">Team</a> - 
+          <a href="/projects">Projects</a> - 
+          <a href="/contact">Contact Us</a>
+        </p>
       </header>
-      <section>
+      <section style="font-size: 15pt">
 
       {{ content }}
 
       </section>
       <footer>
         <p><small>
-          Team - 
+          ExtraVerd Oy -
           <a target="_blank" href="https://www.facebook.com/ExtraVerd-1942742249351518">Facebook</a> - 
           <a target="_blank" href="https://twitter.com/extraverd">Twitter</a> - 
-          Contact Us</small></p>
+          <a href="/contact">Contact Us</a>
+        </small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
