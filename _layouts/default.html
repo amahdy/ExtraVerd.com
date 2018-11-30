@@ -18,7 +18,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="text-align: center;">{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -34,7 +34,11 @@
 
       </section>
       <footer>
-        <p><small>Team - Facebook - Twitter - Contact Us</small></p>
+        <p><small>
+          Team - 
+          <a target="_blank" href="https://www.facebook.com/ExtraVerd-1942742249351518">Facebook</a> - 
+          <a target="_blank" href="https://twitter.com/extraverd">Twitter</a> - 
+          Contact Us</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
