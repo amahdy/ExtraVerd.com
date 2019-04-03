@@ -42,7 +42,7 @@ Applies methods of molecular biology and genetics to biodiversity and species co
 
 A.Mahdy AbdelAziz |
 --- |
-Software Enginner |
+Software Engineer |
 More than 12 years experience in the software engineering field, a technical speaker in big conferences around the world, and leads several pieces of training and workshops to professional developers. |
 
 </div>
